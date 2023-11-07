@@ -239,26 +239,39 @@ main {
   transition: all 500ms;
 } */
 .portfolio p {
-  height: 3rem;
-  position: absolute;
-  /* top: 0; */
-  bottom: 0;
-  background: #7e017eaf;
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
-  display: none;
-  font-size: .8rem;
+  /* width: 100%; */
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   word-spacing: 2px;
   text-transform: uppercase;
+  
+  transition: all 500ms ease;
+}
+.portfolio-description-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0;
+
+  background-color: #7e018ee3;
+  opacity: 0;
+
 }
 
 /* display paragraph on hover */
-.portfolio:hover > p {
-  display: block;
+.portfolio:hover > .portfolio-description-container {
   cursor: pointer;
+  height: 100%;
+  opacity: 1;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 500ms ease;
 }
 a {
   text-decoration: none;
