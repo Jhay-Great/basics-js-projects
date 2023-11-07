@@ -260,6 +260,10 @@ main {
   display: block;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* add a class style that replaces the text description with an image, add transitions, rotate to this class style, the class style should be add on mouse hover */
 
