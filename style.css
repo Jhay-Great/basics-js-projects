@@ -71,6 +71,8 @@ header {
   width: 100%;
   min-height: 6rem;
   z-index: 2;
+  /* background-color: var(--home-background); */
+  background-color: #7e018efa;
 }
 
 .text_logo-container {
