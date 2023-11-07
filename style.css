@@ -231,6 +231,9 @@ main {
   height: 100%; /*on hover 100% */
   object-fit: cover;
 }
+.portfolio:nth-child(2) img {
+  object-position: center;
+}
 /* .portfolio:hover {
   transform: scale(1.1);
   transition: all 500ms;
@@ -245,6 +248,11 @@ main {
   text-align: center;
   padding: 1rem;
   display: none;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* display paragraph on hover */
@@ -293,6 +301,11 @@ main {
   margin: 0 3rem;
   font-size: 1.4rem;
   text-transform: uppercase;
+
+  width: 5%;
+}
+.languages span:last-child img {
+  color: blue;
 }
 
 /* Media Query for medium screens */
