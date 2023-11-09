@@ -7,18 +7,61 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   --h1-color: #bdbdbd;
+  --primary-color: #A13BEA;
+  --secondary-color: #BEAA13;
+  --tertiary-color: #13BEAA;
   --home-background: #807d3142;
+}
+h2 {
+  color: var(--h1-color);
 }
 body {
   /* height: 100vh; */
   font-family: sans-serif;
   color: #ffffff;
+  /* background: linear-gradient(
+    to top left,
+    #94850F 30%,
+    #0F9485
+  ); */
   background: linear-gradient(
     to top left,
     rgb(57, 2, 56) 30%,
     rgb(255, 0, 242)
   );
 }
+/* start of divider */
+.custom-shape-divider-bottom-1699535206 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+}
+
+.custom-shape-divider-bottom-1699534854 {
+  /* height: 100px; */
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1699535206 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 202px;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  /* height: 100px; */
+}
+
+.custom-shape-divider-bottom-1699535206 .shape-fill {
+  fill: #FFFFFF;
+}
+/* end of divider */
 /* -----------------GENERAL/MULTIPLE STYLES----------------- */
 .home,
 .portfolios {
@@ -286,11 +329,6 @@ a {
 .about {
   min-height: 70vh;
   padding: 1.5rem 4rem;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
-  /* background-color: peru; */
 }
 .about h2 {
   /* background-color: red; */
@@ -319,7 +357,7 @@ a {
   font-size: 1.4rem;
   text-transform: uppercase;
 
-  width: 5%;
+  width: 30px;
 }
 .languages span:last-child img {
   color: blue;
