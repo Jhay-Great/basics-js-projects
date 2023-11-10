@@ -59,6 +59,11 @@ svg {
 .custom-shape-divider-bottom-1699535206 .shape-fill {
   fill: #FFFFFF;
 }
+
+path.shape-fill {
+  /* background: white; */
+  fill: white;
+}
 /* end of divider */
 /* -----------------GENERAL/MULTIPLE STYLES----------------- */
 .home,
